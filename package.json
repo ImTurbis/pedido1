@@ -1,0 +1,29 @@
+{
+  "name": "pancy-pedido-1",
+  "version": "0.0.1",
+  "description": "embeds, verificacion, tickets, sugerencias",
+  "main": "src/index.ts",
+  "author": "ImTurbis",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node build/src/index.js",
+    "poststart": "ts-node .",
+    "dev": "ts-node-dev src/index.ts",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "glob": "^11.0.0",
+    "moment": "^2.30.1",
+    "moment-duration-format": "^2.3.2"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/moment-duration-format": "^2.2.6",
+    "@types/ms": "^0.7.34",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.3"
+  }
+}
